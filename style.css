@@ -1,0 +1,69 @@
+body {
+	background-image: url("backimage.jpg");
+}
+
+#homePage {
+	background-image: url("backimage.jpg");
+}
+
+.menuItem {
+	text-decoration: none;
+	width: 150px;
+	display: inline-block;
+	border: 1px solid #9fe971;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: rgb(72, 181, 101);
+	color: black;
+	border-color: forestgreen;
+}
+
+.menuItem:hover {
+	background-color: forestgreen;
+	border-color: palegreen;
+	color: white;
+
+}
+
+.menuItem:active {
+	background-color: #52ae6e;
+	color: white;
+	border-width: 5px;
+}
+
+button{
+	font-size: 1.1 em;
+	background-color: forestgreen;
+	color:red;
+	border: 2px solid black;
+	box-shadow: 4px 4px 4px #999999;
+}
+
+button:hover{
+	color: forestgreen;
+	background-color: red;
+	cursor: pointer;
+}
+#eugen{
+   display: none
+}
+span{
+	color: red;
+}
+span:hover + #eugen{
+   display: block;
+}
+#sageata{
+	width: 600px;
+	height: 300px;
+}
+fieldset{
+   border: solid 2px forestgreen; 
+   margin: 100px 500px;
+   background-color: rgb(72, 181, 101)
+}
+h1{
+	color:#c31717;
+}
