@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>POST</title>
+</head>
+
+<body>
+
+
+    <h2>Choose a flower!</h2>
+
+    <form action="PostServlet" method="post">
+        <table>
+            <tr>
+                <td>Flower Name: </td>
+                <td><input type="name" name="name"></td>
+
+                <td>Color: </td>
+                <td><input type="color" name="color"></td>
+
+                <td>How Many: </td>
+                <td><input type="number" name="many" max="50"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Buy"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
